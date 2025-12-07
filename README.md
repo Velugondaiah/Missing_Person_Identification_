@@ -1,13 +1,13 @@
 # ✨ AI-Powered Missing Person Identification System
 
-🚀 Age-Invariant Face Recognition for Social Impact
+- 🚀 Age-Invariant Face Recognition for Social Impact
 
- A smart platform that helps families, citizens & police locate missing persons using AI-driven face recognition 💙
+ - A smart platform that helps families, citizens & police locate missing persons using AI-driven face recognition 💙
  
  ## 📌 Why This Project Matters
- Every year thousands go missing — but faces change over time, making recognition difficult. Manual comparison is slow, inaccurate, and emotionally draining.
+ - Every year thousands go missing — but faces change over time, making recognition difficult. Manual comparison is slow, inaccurate, and emotionally draining.
 
-Our system automates this process using deep learning — comparing faces even when aging, lighting, or appearance has changed ✨
+- Our system automates this process using deep learning — comparing faces even when aging, lighting, or appearance has changed ✨
 
 ## 🧠 How It Works (In Simple Words)
 
@@ -25,10 +25,10 @@ Our system automates this process using deep learning — comparing faces even w
 
 We use ArcFace, one of the world’s most accurate face recognition techniques — as supported in your presentation where ArcFace outperforms alternatives like DeepFace & VGGFace 
 
-📌 Produces 512-dimensional identity embeddings
-📌 Matching done via Cosine Similarity
+- 📌 Produces 512-dimensional identity embeddings
+- 📌 Matching done via Cosine Similarity
 
-✨ In benchmarks, this method reaches >92% accuracy
+- ✨ In benchmarks, this method reaches >92% accuracy
 
 ## 🔧 Tech Stack Overview
 
@@ -42,8 +42,8 @@ We use ArcFace, one of the world’s most accurate face recognition techniques �
 ## 📌 Modules Overview
 ### 1️⃣ User Portal
 
-👪 Register missing cases
-📤 Upload sightings
+- 👪 Register missing cases
+- 📤 Upload sightings
 
 ![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7d04bc6725e1d861ad37481f08fa9a669ec7415e/Screenshot%202025-12-08%20000624.png)
 
