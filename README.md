@@ -50,3 +50,71 @@ capstone_final_ppt
 
 ![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7d04bc6725e1d861ad37481f08fa9a669ec7415e/Screenshot%202025-12-08%20000624.png)
 
+![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7fb1af7fb3b8574190570648a6ecd83aa24525eb/Screenshot%202025-12-08%20000636.png)
+
+### 2️⃣ Police Portal
+
+👮‍♂️ Validate reports
+📝 Case closure
+📍 Track sightings
+
+![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7fb1af7fb3b8574190570648a6ecd83aa24525eb/Screenshot%202025-12-08%20000649.png)
+
+
+
+### 📈 Results Snapshot
+
+✔️ Accuracy: 92%+
+❌ FAR: ~4-5%
+🚫 FRR: ~7%
+⚡ Latency: 1–3 sec per request
+
+### ✨ Why This Approach Wins
+
+🔥 Works even if the person has aged
+⚡ Detects matches faster than humans
+🔁 Constantly improves via retraining
+❤️ Saves families time, pain & uncertainty
+
+### 🧩 Future Enhancements
+
+✨ GAN-based aging for 10+ year gap matching
+📹 CCTV auto-matching
+🎙 Voice or gait fusion
+🧪 Fairness evaluation
+🚔 Real deployments with authorities
+
+## 📸 Screens & Visuals
+
+### 🏠 Dashboard
+
+![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7d04bc6725e1d861ad37481f08fa9a669ec7415e/Screenshot%202025-12-08%20000624.png)
+
+### 🔍 Found Case Log
+
+![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7fb1af7fb3b8574190570648a6ecd83aa24525eb/Screenshot%202025-12-08%20000636.png)
+
+### 👮 Backend Verification Records
+
+![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7fb1af7fb3b8574190570648a6ecd83aa24525eb/Screenshot%202025-12-08%20000649.png)
+
+## 🛠 Installation & Setup
+
+# Clone project
+git clone <https://github.com/Velugondaiah/Missing_Person_Identification_.git>
+cd Missing_Person_Identification_
+
+# Install frontend
+cd cap-front && npm install && npm start
+
+# Install backend
+cd cap-back && npm install && npm start
+
+
+
+
+
+
+
+
+
