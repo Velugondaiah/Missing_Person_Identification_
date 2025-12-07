@@ -1,6 +1,3 @@
-
-<p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/AI-ArcFace-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Accuracy-92%25%2B-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-React%20|%20FastAPI%20|%20Supabase-orange?style=for-the-badge" /> </p>
-
 # ✨ AI-Powered Missing Person Identification System
 
 🚀 Age-Invariant Face Recognition for Social Impact
@@ -70,6 +67,9 @@ capstone_final_ppt
 ❌ FAR: ~4-5%
 🚫 FRR: ~7%
 ⚡ Latency: 1–3 sec per request
+
+<p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/AI-ArcFace-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Accuracy-92%25%2B-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-React%20|%20FastAPI%20|%20Supabase-orange?style=for-the-badge" /> </p>
+
 
 ### ✨ Why This Approach Wins
 
