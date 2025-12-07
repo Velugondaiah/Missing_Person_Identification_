@@ -1,3 +1,8 @@
+🚀 README.md — GitHub Ready Version
+<p align="center"> <img src="https://via.placeholder.com/900x200?text=AI+Missing+Person+Identification+System+%F0%9F%8C%9F" /> </p> <p align="center"> <b>AI-Powered Age-Invariant Face Recognition for Finding Missing Persons</b><br> <i>Because every life matters 💙</i> </p>
+
+<p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/AI-ArcFace-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Accuracy-92%25%2B-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-React%20|%20FastAPI%20|%20Supabase-orange?style=for-the-badge" /> </p>
+
 
 # ✨ AI-Powered Missing Person Identification System
 
@@ -98,17 +103,25 @@ capstone_final_ppt
 
 ![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7fb1af7fb3b8574190570648a6ecd83aa24525eb/Screenshot%202025-12-08%20000649.png)
 
-## 🛠 Installation & Setup
+## Installation
 
-# Clone project
-git clone <https://github.com/Velugondaiah/Missing_Person_Identification_.git>
+1. **Clone the repository:**
+```bash
+git clone https://github.com/Velugondaiah/Missing_Person_Identification_.git
 cd Missing_Person_Identification_
+```
 
-# Install frontend
-cd cap-front && npm install && npm start
+2. **Install Backend Dependencies:**
+```bash
+cd cap-back
+npm install && npm start
+```
 
-# Install backend
-cd cap-back && npm install && npm start
+3. **Install Frontend Dependencies:**
+```bash
+cd cao-front
+npm install && npm start
+```
 
 
 
