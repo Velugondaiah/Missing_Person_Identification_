@@ -48,3 +48,5 @@ capstone_final_ppt
 👪 Register missing cases
 📤 Upload sightings
 
+![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7d04bc6725e1d861ad37481f08fa9a669ec7415e/Screenshot%202025-12-08%20000624.png)
+
