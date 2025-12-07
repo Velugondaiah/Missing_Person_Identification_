@@ -1,0 +1,124 @@
+.reporter-container {
+  padding: 2rem 0;
+}
+
+.reporter-paper {
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.reporter-title {
+  margin-bottom: 2rem;
+  color: #3f51b5;
+  text-align: center;
+  font-weight: 600;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1000;
+}
+
+.camera-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.camera-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: #000;
+}
+
+.capture-button {
+  position: absolute !important;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.start-camera-button {
+  margin: 20px 0 !important;
+  max-width: 320px;
+}
+
+.photo-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.captured-image {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.retake-button {
+  margin-bottom: 16px !important;
+}
+
+.location-section {
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.form-button {
+  min-width: 120px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .reporter-paper {
+    padding: 1rem;
+  }
+  
+  .button-container {
+    flex-direction: column;
+  }
+  
+  .form-button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}

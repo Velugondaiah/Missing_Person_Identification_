@@ -1,0 +1,128 @@
+.missing-report-root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #e0e7ff 0%, #f0f4ff 100%);
+  padding: 40px 0;
+}
+
+.missing-report-form {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px #dbeafe55;
+  padding: 40px 32px 32px 32px;
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  border: 1.5px solid #e0e7ef;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.missing-report-form h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2563eb;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.missing-report-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.missing-report-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.missing-report-group label {
+  font-weight: 600;
+  color: #23272f;
+  margin-bottom: 2px;
+  font-size: 1rem;
+}
+
+.missing-report-group label span {
+  color: #ef4444;
+  margin-left: 2px;
+}
+
+.missing-report-group input,
+.missing-report-group select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.2px solid #e0e7ef;
+  font-size: 1rem;
+  background: #f6f8fb;
+  transition: border 0.16s, box-shadow 0.16s;
+  outline: none;
+}
+
+.missing-report-group input:focus,
+.missing-report-group select:focus {
+  border: 1.2px solid #2563eb;
+  box-shadow: 0 2px 8px #dbeafe33;
+}
+
+.missing-report-submit {
+  background: #2563eb;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 0;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #dbeafe33;
+  transition: background 0.18s, box-shadow 0.18s, transform 0.14s;
+}
+.missing-report-submit:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
+.missing-report-submit:hover:not(:disabled) {
+  background: #1746a2;
+  box-shadow: 0 4px 16px #dbeafe55;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.missing-report-success {
+  color: #22c55e;
+  background: #eaffea;
+  border: 1px solid #b3ffb3;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.missing-report-error {
+  color: #ef4444;
+  background: #ffeaea;
+  border: 1px solid #ffb3b3;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .missing-report-form {
+    padding: 18px 4vw 14px 4vw;
+    max-width: 98vw;
+    border-radius: 10px;
+  }
+  .missing-report-root {
+    padding: 10px 0;
+  }
+}

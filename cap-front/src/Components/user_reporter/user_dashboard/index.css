@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.civic-dashboard-root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f7f8fa 0%, #f0f4ff 100%);
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.civic-dashboard-root.topnav-layout {
+  flex-direction: column;
+  background: linear-gradient(135deg, #f7f8fa 0%, #f0f4ff 100%);
+}
+
+.civic-topnav {
+  width: 100%;
+  background: #f0f4ff;
+  color: #23272f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  min-height: 64px;
+  box-shadow: 0 2px 12px #dbeafe33;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid #e0e7ef;
+  border-radius: 0 0 18px 18px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.civic-topnav-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.civic-topnav-logo {
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+  color: #2563eb;
+  background: none;
+}
+.civic-topnav-logo-icon {
+  color: #3b82f6;
+  font-size: 1.8rem;
+  filter: none;
+}
+.civic-topnav-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.civic-topnav-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  background: none;
+  transition: background 0.16s, color 0.16s, box-shadow 0.16s, transform 0.12s;
+  margin-right: 2px;
+  user-select: none;
+  position: relative;
+  border: 1px solid transparent;
+}
+.civic-topnav-nav-item.active, .civic-topnav-nav-item:hover {
+  background: #e0e7ef;
+  color: #2563eb;
+  box-shadow: 0 2px 8px #dbeafe33;
+  transform: scale(1.04);
+  border: 1px solid #3b82f6;
+}
+.civic-topnav-nav-item span {
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-left: 3px;
+  font-size: 1rem;
+  transition: color 0.12s;
+}
+.civic-topnav-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-left: 1px solid #e0e7ef;
+  padding-left: 18px;
+}
+.civic-topnav-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f6f8fb;
+  border-radius: 14px;
+  padding: 5px 14px 5px 5px;
+  box-shadow: 0 1px 6px #dbeafe22;
+  border: 1px solid #e0e7ef;
+  transition: box-shadow 0.16s, border 0.16s;
+}
+.civic-topnav-profile:hover {
+  box-shadow: 0 4px 16px #dbeafe44;
+  border: 1px solid #3b82f6;
+}
+.civic-topnav-profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.civic-topnav-profile-name {
+  font-weight: 700;
+  color: #23272f;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.civic-topnav-badge {
+  color: #22c55e;
+  font-size: 1.1rem;
+  margin-left: 2px;
+  vertical-align: middle;
+  filter: drop-shadow(0 0 4px #22c55e88);
+}
+.civic-topnav-profile-role {
+  font-size: 0.95rem;
+  color: #2563eb;
+  font-weight: 600;
+  margin-top: 1px;
+}
+.civic-topnav .MuiIconButton-root {
+  color: #64748b;
+  transition: color 0.14s, background 0.14s;
+  border-radius: 50%;
+}
+.civic-topnav .MuiIconButton-root:hover {
+  color: #2563eb;
+  background: #e0e7ef;
+}
+
+.civic-dashboard-main.topnav-main {
+  margin-left: 0;
+  padding: 48px 40px 32px 40px;
+  max-width: 1400px;
+  width: 100%;
+  align-self: center;
+  background: none;
+}
+body, .civic-dashboard-root {
+  background: linear-gradient(120deg, #e0e7ff 0%, #f0f4ff 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.civic-dashboard-root::before {
+  display: none;
+}
+
+.civic-dashboard-header.topnav-header {
+  background: linear-gradient(90deg, #e0e7ff 60%, #f6e6ff 100%);
+  border-radius: 24px;
+  box-shadow: 0 2px 16px #dbeafe88;
+  padding: 36px 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.civic-header-user {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.civic-header-avatar {
+  width: 72px !important;
+  height: 72px !important;
+  border: 3px solid #e0e7ef;
+  box-shadow: 0 2px 8px #dbeafe55;
+  margin-right: 18px;
+}
+.civic-header-greeting {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #23272f;
+  letter-spacing: 0.2px;
+  margin-bottom: 6px;
+}
+.civic-header-name {
+  color: #3b82f6;
+  background: none;
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-left: 8px;
+}
+.civic-header-role {
+  font-size: 1.05rem;
+  color: #64748b;
+  font-weight: 600;
+  margin-top: 2px;
+}
+.civic-header-verified {
+  color: #22c55e;
+  font-size: 1.2rem;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+.civic-header-actions {
+  display: flex;
+  gap: 20px;
+}
+.civic-header-action-btn {
+  background: #e0e7ef;
+  color: #23272f;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 1px 6px #dbeafe33;
+  padding: 14px 28px;
+  font-size: 1.08rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.18s, background 0.18s, transform 0.18s;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.2px;
+}
+.civic-header-action-btn:hover {
+  background: #dbeafe;
+  color: #2563eb;
+  box-shadow: 0 4px 16px #dbeafe55;
+  transform: translateY(-2px) scale(1.04);
+}
+.civic-widget-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  width: 100%;
+  align-items: start;
+}
+.civic-widget-card {
+  background: #f6f8ff;
+  border-radius: 20px;
+  box-shadow: 0 2px 16px #dbeafe55;
+  padding: 32px 24px 24px 24px;
+  margin-bottom: 24px;
+  transition: box-shadow 0.18s, transform 0.14s, border 0.14s, background 0.18s;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1.5px solid #e0e7ef;
+  backdrop-filter: blur(6px) saturate(1.05);
+  position: relative;
+  z-index: 1;
+}
+.civic-widget-card:hover {
+  box-shadow: 0 8px 32px #dbeafe88;
+  transform: translateY(-2px) scale(1.02);
+  border: 1.5px solid #3b82f6;
+  background: #f8fafc;
+}
+.civic-widget-title {
+  font-size: 1.18rem;
+  font-weight: 800;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  background: none;
+  text-shadow: none;
+}
+.civic-widget-title svg {
+  filter: drop-shadow(0 0 8px #4f8cff33);
+}
+.civic-widget-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.civic-widget-list-item {
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 1px 4px #dbeafe22;
+  transition: background 0.14s, box-shadow 0.14s, transform 0.14s;
+  border: 1px solid #e0e7ef;
+  background: #f6f8fb;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+}
+.civic-widget-list-item:hover {
+  background: #fff;
+  box-shadow: 0 4px 16px #dbeafe44;
+  transform: scale(1.01);
+  border: 1px solid #3b82f6;
+}
+.civic-widget-list-avatar {
+  background: #e0e7ef;
+  color: #2563eb;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 4px #dbeafe22;
+}
+.civic-widget-list-name {
+  flex: 1;
+  font-weight: 700;
+  color: #23272f;
+}
+.civic-widget-list-desc {
+  color: #4f8cff;
+  font-size: 0.98rem;
+  margin-left: 8px;
+}
+.civic-widget-list-time {
+  color: #888;
+  font-size: 0.92rem;
+  margin-left: 8px;
+}
+.civic-widget-list-status {
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin-left: 8px;
+  padding: 2px 12px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1.2px solid #e3eaff;
+  box-shadow: 0 1px 4px #4f8cff11;
+}
+/* Pastel backgrounds for each card */
+.civic-widget-card:nth-child(1) {
+  background: linear-gradient(120deg, #f6f8ff 60%, #e0f7fa 100%);
+}
+.civic-widget-card:nth-child(2) {
+  background: linear-gradient(120deg, #f6e6ff 60%, #e0e7ff 100%);
+}
+.civic-widget-card:nth-child(3) {
+  background: linear-gradient(120deg, #fff7e6 60%, #ffe0e7 100%);
+}
+.civic-widget-card:nth-child(4) {
+  background: linear-gradient(120deg, #e6fff7 60%, #e0f7fa 100%);
+}
+
+/* Widget titles with matching accent colors */
+.civic-widget-card:nth-child(1) .civic-widget-title {
+  color: #2563eb;
+}
+.civic-widget-card:nth-child(2) .civic-widget-title {
+  color: #a259e6;
+}
+.civic-widget-card:nth-child(3) .civic-widget-title {
+  color: #f59e42;
+}
+.civic-widget-card:nth-child(4) .civic-widget-title {
+  color: #22c55e;
+}
+
+/* Widget avatars with matching backgrounds */
+.civic-widget-card:nth-child(1) .civic-widget-list-avatar {
+  background: #e0e7ff;
+  color: #2563eb;
+}
+.civic-widget-card:nth-child(2) .civic-widget-list-avatar {
+  background: #f6e6ff;
+  color: #a259e6;
+}
+.civic-widget-card:nth-child(3) .civic-widget-list-avatar {
+  background: #fff7e6;
+  color: #f59e42;
+}
+.civic-widget-card:nth-child(4) .civic-widget-list-avatar {
+  background: #e6fff7;
+  color: #22c55e;
+}
+
+/* Softer status badge colors */
+.civic-widget-list-status.missing {
+  color: #e57373;
+  background: #ffeaea;
+  border: 1px solid #ffb3b3;
+}
+.civic-widget-list-status.found, .civic-widget-list-status.earned {
+  color: #22c55e;
+  background: #eaffea;
+  border: 1px solid #b3ffb3;
+}
+.civic-widget-list-status.pending {
+  color: #f59e42;
+  background: #fff7e6;
+  border: 1px solid #ffe0b3;
+}
+.civic-widget-list-status.info {
+  color: #2563eb;
+  background: #e0e7ff;
+  border: 1px solid #b3d1ff;
+}
+.civic-widget-list-alert {
+  color: #ef4444;
+  margin-left: 8px;
+  font-size: 1.1rem;
+  animation: alertPulse 1.2s infinite alternate;
+  filter: drop-shadow(0 0 4px #ef444488);
+}
+@keyframes alertPulse {
+  0% { filter: drop-shadow(0 0 0 #ef444444); }
+  100% { filter: drop-shadow(0 0 6px #ef444488); }
+}
+
+@media (max-width: 1100px) {
+  .civic-topnav {
+    padding: 0 8px;
+    min-height: 52px;
+    border-radius: 0 0 10px 10px;
+  }
+  .civic-dashboard-main.topnav-main {
+    padding: 24px 6px 18px 6px;
+  }
+  .civic-dashboard-header.topnav-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 20px 8px;
+  }
+  .civic-widget-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .civic-widget-card {
+    padding: 18px 6px 12px 6px;
+    border-radius: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .civic-topnav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 0 1vw;
+    min-height: 40px;
+    border-radius: 0 0 6px 6px;
+  }
+  .civic-topnav-left {
+    gap: 6px;
+  }
+  .civic-topnav-right {
+    padding-left: 6px;
+    gap: 6px;
+  }
+  .civic-topnav-profile {
+    padding: 3px 6px 3px 3px;
+    border-radius: 8px;
+  }
+  .civic-widget-card {
+    padding: 8px 2vw 6px 2vw;
+    border-radius: 8px;
+  }
+}
+
+/* Remove sidebar from main layout */
+.civic-sidebar, .civic-sidebar-logo, .civic-sidebar-nav, .civic-sidebar-nav-item, .civic-sidebar-bottom, .civic-sidebar-profile, .civic-sidebar-badge {
+  display: none !important;
+}
+/* Add these styles to your existing CSS */
+.camera {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.camera video {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+}
+
+.camera canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.camera button {
+  margin-top: 10px;
+}
