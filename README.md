@@ -1,9 +1,6 @@
-🚀 README.md — GitHub Ready Version
-<p align="center"> <img src="https://via.placeholder.com/900x200?text=AI+Missing+Person+Identification+System+%F0%9F%8C%9F" /> </p> <p align="center"> <b>AI-Powered Age-Invariant Face Recognition for Finding Missing Persons</b><br> <i>Because every life matters 💙</i> </p>
 
 <p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/AI-ArcFace-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Accuracy-92%25%2B-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-React%20|%20FastAPI%20|%20Supabase-orange?style=for-the-badge" /> </p>
 
-<p align="center"> <img src="https://via.placeholder.com/700x350?text=System+Demo+GIF+here" /> </p>
 # ✨ AI-Powered Missing Person Identification System
 
 🚀 Age-Invariant Face Recognition for Social Impact
