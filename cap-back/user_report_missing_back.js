@@ -11,7 +11,6 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 // JWT Secret - In production, use environment variable
-const JWT_SECRET = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5yeHFjZmRieXNjcWdyZHJxZWd1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjAzNDM1MiwiZXhwIjoyMDY3NjEwMzUyfQ.bEFQLDvIeX0rfM_zfrMM1mTVFMFc8_wuSy28R1g3qBg";
 
 // Verify token middleware
 const verifyToken = (req, res, next) => {
