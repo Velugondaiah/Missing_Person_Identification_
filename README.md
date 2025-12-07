@@ -15,11 +15,11 @@ Our system automates this process using deep learning — comparing faces even w
 
 ## 🚀 Core Features
 
-✔️ Missing person registration portal
-✔️ AI-driven age-invariant matching 🔍
-✔️ Police & family dashboards for updates
-✔️ Real-time notifications 🔔
-✔️ Mobile-friendly experience 📱
+- ✔️ Missing person registration portal
+- ✔️ AI-driven age-invariant matching 🔍
+- ✔️ Police & family dashboards for updates
+- ✔️ Real-time notifications 🔔
+- ✔️ Mobile-friendly experience 📱
 
 ## 🧬 The AI Behind It
 
