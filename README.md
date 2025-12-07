@@ -25,8 +25,6 @@ Our system automates this process using deep learning — comparing faces even w
 
 We use ArcFace, one of the world’s most accurate face recognition techniques — as supported in your presentation where ArcFace outperforms alternatives like DeepFace & VGGFace 
 
-capstone_final_ppt
-
 📌 Produces 512-dimensional identity embeddings
 📌 Matching done via Cosine Similarity
 
@@ -34,12 +32,12 @@ capstone_final_ppt
 
 ## 🔧 Tech Stack Overview
 
-💻 Frontend: React.js
-⚙️ Backend: Node.js + FastAPI
-🧠 AI Model: PyTorch ArcFace
-🗄 Database: Supabase
-🔍 Search Engine: FAISS (nearest neighbor retrieval)
-✉️ Notifications: Email/SMS Push
+- 💻 Frontend: React.js
+- ⚙️ Backend: Node.js + FastAPI
+- 🧠 AI Model: PyTorch ArcFace
+- 🗄 Database: Supabase
+- 🔍 Search Engine: FAISS (nearest neighbor retrieval)
+- ✉️ Notifications: Email/SMS Push
 
 ## 📌 Modules Overview
 ### 1️⃣ User Portal
@@ -53,9 +51,9 @@ capstone_final_ppt
 
 ### 2️⃣ Police Portal
 
-👮‍♂️ Validate reports
-📝 Case closure
-📍 Track sightings
+- 👮‍♂️ Validate reports
+- 📝 Case closure
+- 📍 Track sightings
 
 ![image alt](https://github.com/Velugondaiah/Missing_Person_Identification_/blob/7fb1af7fb3b8574190570648a6ecd83aa24525eb/Screenshot%202025-12-08%20000649.png)
 
@@ -63,28 +61,28 @@ capstone_final_ppt
 
 ### 📈 Results Snapshot
 
-✔️ Accuracy: 92%+
-❌ FAR: ~4-5%
-🚫 FRR: ~7%
-⚡ Latency: 1–3 sec per request
+- ✔️ Accuracy: 92%+
+- ❌ FAR: ~4-5%
+- 🚫 FRR: ~7%
+- ⚡ Latency: 1–3 sec per request
 
 <p align="center"> <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/AI-ArcFace-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Accuracy-92%25%2B-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Tech-React%20|%20FastAPI%20|%20Supabase-orange?style=for-the-badge" /> </p>
 
 
 ### ✨ Why This Approach Wins
 
-🔥 Works even if the person has aged
-⚡ Detects matches faster than humans
-🔁 Constantly improves via retraining
-❤️ Saves families time, pain & uncertainty
+- 🔥 Works even if the person has aged
+- ⚡ Detects matches faster than humans
+- 🔁 Constantly improves via retraining
+- ❤️ Saves families time, pain & uncertainty
 
 ### 🧩 Future Enhancements
 
-✨ GAN-based aging for 10+ year gap matching
-📹 CCTV auto-matching
-🎙 Voice or gait fusion
-🧪 Fairness evaluation
-🚔 Real deployments with authorities
+- ✨ GAN-based aging for 10+ year gap matching
+- 📹 CCTV auto-matching
+- 🎙 Voice or gait fusion
+- 🧪 Fairness evaluation
+- 🚔 Real deployments with authorities
 
 ## 📸 Screens & Visuals
 
