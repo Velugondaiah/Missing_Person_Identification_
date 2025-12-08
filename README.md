@@ -9,7 +9,7 @@
 
 - Our system automates this process using deep learning — comparing faces even when aging, lighting, or appearance has changed ✨
 
-## 🧠 How It Works (In Simple Words)
+## 🧠 How It Works (In Simple Words) 
 
 📥 Upload → 🤖 AI recognizes → 🔍 Match detection → 📢 Alert family & police
 
